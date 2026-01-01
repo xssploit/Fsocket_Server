@@ -7,18 +7,22 @@ Simply git clone and run
 
 >run fsocket [with custom port]
 
-    fsock -p [port]
+    fsocket -p [port]
     eg:- fsock -p 3000
 
     default : 8080
 
 >enable/disable website mode
 
-    fsock -w=[true/false]
+    fsocket -w=[true/false]
     
-    eg:- fsock -w=false //disables website mode
-    eg:- fsock -w=true //enables website mode
+    eg:- fsocket -w=false //disables website mode
+    eg:- fsocket -w=true //enables website mode
 
     default : true
+
+>make executable
+
+    chmod +x fsocket
 
 
